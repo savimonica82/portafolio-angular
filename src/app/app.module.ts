@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/header/header.component';
@@ -20,8 +21,10 @@ import { ItemComponent } from './pages/item/item.component';
   ],
   imports: [  //aquí se colocan los modulos
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
+  //añadir los servicios en la parte de providers
   providers: [],
   bootstrap: [AppComponent]
 })

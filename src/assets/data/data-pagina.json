@@ -1,0 +1,13 @@
+{
+    "titulo": "Monica",
+    "email": "aaa@a.com",
+    "nombre_corto": "Moni",
+    "comments": "comprueba que el JSOn esté bien en http://json.parser.online.fr/",
+    "pagina_autor": "http://web.com",
+    "facebook": "http://facebook.com/monica-savi",
+    "twitter": "http://twitter.com/monica-savi",
+    "instagram": "http://instagram.com/monica-savi",
+    "pinterest": "http://pinterest.com/monica-savi",
+    "tumblr": "http://tumblr.com/monica-savi",
+    "equipo_trabajo": []
+} 
